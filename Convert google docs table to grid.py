@@ -21,6 +21,6 @@ def print_values(rows):
         if 1 == len(set(line)):
             continue
         else:
-         print("".join(line),"\n")
-
+         print(line),"\n")
+            # to remove grid outline, replace line with "".join(line) one line 24
 print_values(get_values("https://docs.google.com/document/d/e/2PACX-1vQGUck9HIFCyezsrBSnmENk5ieJuYwpt7YHYEzeNJkIb9OSDdx-ov2nRNReKQyey-cwJOoEKUhLmN9z/pub"))
